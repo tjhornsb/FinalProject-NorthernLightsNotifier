@@ -56,6 +56,18 @@ Email:
   **(ONLY USE PERSONAL EMAILS OR EMAILS OF PEOPLE WHO HAVE EXPRESSLY CONSENTED TO HAVE AUTOMATED EMAILS SENT TO THEM)**
 
 ## **Task Scheduler Setup**
+Create a batch file containing the following code and name it something along the lines of ``Notifier.bat``
+```
+@echo off
+python3 C:\Users\XXXXX\Desktop\FinalProject-NorthernLightsNotifier\NorthernLights.py
+```
+Next, launch task Scheduler, click the ``Action`` tab, and then select the ``Create Task`` option.
+On the ``General`` tab, name the task something memorable, like ``NotifierAutorun``, select the ``Run whether user is logged on or not`` option, check the box for ``Run with highest privileges``, and choose ``Windows 10`` from the ``Cofigure for:`` dropdown menu.
+Now go to the ``Triggers`` tab and click the ``New...`` button, select ``At startup`` from the ``Begin the task:`` dropdown menu, ensure that the ``Enabled`` box is checked, and click ``OK``.
+Next, go into the ``Actions`` tab and click the ``New...`` button, ensure that ``Start a program`` is selected from the ``Action:`` dropdown and enter the filepath to the batchfile you created in the ``Program/Script:`` field, finally, click ``OK``.
+No setting need to be modified in the ``Conditions`` or ``Settings`` tabs, and the ``OK`` button can be clicked to create the task.
+Following these steps should ensure that the python file is run whenever your computer is started.
+
 
 *Regards,*
 *Trevor*
