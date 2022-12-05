@@ -18,7 +18,7 @@ These commands will install necessary packages that are not included with Python
 
 ## **API Setup**
   [https://openweathermap.org/price#weather](https://openweathermap.org/price#weather) (Free Edition)\
-    This API key is for the ``openWeather_API_Key`` variable Generated with default settings
+    This API key is for the ``openWeather_API_Key`` variable, and only needs to be generated with default settings
 
 ## **E-mail setup**
   Please follow this guide for creating a gmail bot account so that your instance of the program can send notification emails
