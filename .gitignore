@@ -1,0 +1,7 @@
+creds.json
+AuroraLog.txt
+lib64
+bin/*
+bin/python
+bin/python3
+bin/python3.9
