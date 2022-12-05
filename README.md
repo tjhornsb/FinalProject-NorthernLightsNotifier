@@ -17,13 +17,8 @@ These commands will install necessary packages that are not included with Python
 ```python3 -m pip install requests, geocoder, astral, geopy, datetime, timezonefinder```
 
 ## **API Setup**
-API:
-  [https://openweathermap.org/price#weather](https://openweathermap.org/price#weather) (Free Edition)
-    This API key is for the ``openWeather_API_Key`` variable
-    Generated with default settings
-    
-Email:
-
+  [https://openweathermap.org/price#weather](https://openweathermap.org/price#weather) (Free Edition)\
+    This API key is for the ``openWeather_API_Key`` variable Generated with default settings
 
 ## **E-mail setup**
   Please follow this guide for creating a gmail bot account so that your instance of the program can send notification emails
