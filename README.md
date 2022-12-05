@@ -8,13 +8,15 @@ Full project functionality includes:
  - The ability to notify someone / a list of people if there is a good probability for seeing the Northern Lights within the next 3 hours based on their current location.
  - Automatic logging so that past emails that have been sent are archived in a text file for review
 
-## **Required Packages**
+## **Required Packages and API / EMail setup**
 These are the Packages / Libraries used in the program
 ```requests, json, geocoder, astral, geopy, time, math, re, smtplib, datetime, os, timezonefinder, email```
 
 These commands will install necessary packages that are not included with Python 3\
 ```python3 -m pip install --upgrade pip```\
 ```python3 -m pip install requests, geocoder, astral, geopy, datetime, timezonefinder```
+
+
 
 ## **Credential Setup**
 
@@ -34,11 +36,15 @@ These commands will install necessary packages that are not included with Python
 }
 ```
 
-## **APIs Setup**
-
-  https://openweathermap.org/price#weather (Free Edition)
+## **API and Email Setup**
+API:
+  [https://openweathermap.org/price#weather](https://openweathermap.org/price#weather) (Free Edition)
     This API key is for the ``openWeather_API_Key`` variable
     Generated with default settings
+    
+Email:
+  Please follow this guide for creating a gmail bot account so that your instance of the program can send notification emails
+[https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a](https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a)
 
 ## **E-mail setup**
  - Make a new gmail account and change the settings to allow it to run in untrusted apps
