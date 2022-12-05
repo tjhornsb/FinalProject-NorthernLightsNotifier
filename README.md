@@ -36,17 +36,18 @@ These commands will install necessary packages that are not included with Python
 }
 ```
 
-## **API and Email Setup**
+## **API Setup**
 API:
   [https://openweathermap.org/price#weather](https://openweathermap.org/price#weather) (Free Edition)
     This API key is for the ``openWeather_API_Key`` variable
     Generated with default settings
     
 Email:
-  Please follow this guide for creating a gmail bot account so that your instance of the program can send notification emails
-[https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a](https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a)
+
 
 ## **E-mail setup**
+  Please follow this guide for creating a gmail bot account so that your instance of the program can send notification emails
+[https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a](https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a)
  - Make a new gmail account and change the settings to allow it to run in untrusted apps
  - Update the ``bot_email`` variable with whatever email you have for this new account
  - In ``creds.json`` update the ``bot_password`` Variable with the password for this gmail account
