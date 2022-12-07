@@ -14,7 +14,7 @@ These are the Packages / Libraries used in the program
 
 These commands will install necessary packages that are not included with Python 3\
 ```python3 -m pip install --upgrade pip```\
-```python3 -m pip install requests, geocoder, astral, geopy, datetime, timezonefinder```
+```python3 -m pip install geocoder, astral, geopy, datetime, timezonefinder```
 
 ## **API Setup**
   [https://openweathermap.org/price#weather](https://openweathermap.org/price#weather) (Free Edition)\
