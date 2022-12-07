@@ -1,5 +1,6 @@
 creds.json
 AuroraLog.txt
+Notifier.bat
 lib64
 bin/*
 bin/python
