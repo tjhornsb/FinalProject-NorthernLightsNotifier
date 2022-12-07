@@ -174,7 +174,6 @@ def AuroraRun():
             outmsg = "LOW Possibility" + boilerplate
         elif ((int(now_time()) >= int(dusk_time())) and (moon == "Full moon" or "New Moon")) and (cloud <= 50):
             outmsg = "VERY LOW Possibility of seeing the lights tonight\n\tYou probably won't see the lights tonight, but it should be a good night for skywatching!\n\n\tCurrent Cloud Coverage is: " + str(cloud)+"%\n\tCurrent moon phase: "+moon+"\n\tCurrent KP: "+str(NOAAkpindex)
-            sendList = credJson['Space']
         elif cloud >= 75:
             outmsg = "VERY LOW Possibility" + boilerplate
     else:
