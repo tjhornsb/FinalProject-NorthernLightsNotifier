@@ -224,5 +224,5 @@ while True:
     # Sleep for 1 minute before checking the time again
     sleep(60 - time() % 60)
 
-'''Testing Call'''
+'''Manual Testing Call'''
 # NorthernLightsNotification()
