@@ -215,6 +215,7 @@ while True:
     minute = now_time()[0].strftime("%M")
     timestamp = str(hour) + ":" + str(minute)
 
+    print(timestamp)
     # Northern Lights Run Times (Midnight & 9:00 PM)
     if timestamp == "00:00" or timestamp == "21:00":
         NorthernLightsNotification()
